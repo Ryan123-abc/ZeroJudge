@@ -4,15 +4,10 @@
 int main(){
 	int a;
 	while(scanf("%d", &a) != EOF){
-		if(a%400==0){
-			printf("閏年");
-		}
-		else if(a%100==0){
-			printf("平年");
-		}
-		else if(a%4==0){
-			printf("閏年");
-		}
+		if(a%4==0 && a%100!=0 || a%400==0)
+			printf("閏年\n");
+		else 
+			printf("平年\n");
 	}
 	return 0;
 }
