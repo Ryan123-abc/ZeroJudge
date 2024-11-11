@@ -13,7 +13,7 @@ int main(){
 		int x2 = (-b-sqrt(D))/(2*a);
 
 		if( D>0 )
-			printf("Two different roots x1=%d, x2=%d", x1, x2);
+			printf("Two different roots x1=%d , x2=%d", x1, x2);
 		else if(D == 0)
 			printf("Two same roots x=%d", x1);
 	}
