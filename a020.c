@@ -2,35 +2,35 @@
 
 int main(){
 	char a, b[9];
-	int c, sum;
+	int c = 0, sum;
 	scanf("%c%s", &a, b);
 	switch(a){
-		case 'A': c=10;
-		case 'B': c=11;
-		case 'c': c=12;
-		case 'D': c=13;
-		case 'E': c=14;
-		case 'F': c=15;
-		case 'G': c=16;
-		case 'H': c=17;
-		case 'I': c=34;
-		case 'J': c=18;
-		case 'K': c=19;
-		case 'L': c=20;
-		case 'M': c=21;
-		case 'N': c=22;
-		case 'O': c=35;
-		case 'P': c=23;
-		case 'Q': c=24;
-		case 'R': c=25;
-		case 'S': c=26;
-		case 'T': c=27;
-		case 'U': c=28;
-		case 'V': c=29;
-		case 'W': c=32;
-		case 'X': c=30;
-		case 'Y': c=31;
-		case 'Z': c=33;
+		case 'A': c=10; break;
+		case 'B': c=11; break;
+		case 'c': c=12; break;
+		case 'D': c=13; break;
+		case 'E': c=14; break;
+		case 'F': c=15; break;
+		case 'G': c=16; break;
+		case 'H': c=17; break;
+		case 'I': c=34; break;
+		case 'J': c=18; break;
+		case 'K': c=19; break;
+		case 'L': c=20; break;
+		case 'M': c=21; break;
+		case 'N': c=22; break;
+		case 'O': c=35; break;
+		case 'P': c=23; break;
+		case 'Q': c=24; break;
+		case 'R': c=25; break;
+		case 'S': c=26; break;
+		case 'T': c=27; break;
+		case 'U': c=28; break;
+		case 'V': c=29; break;
+		case 'W': c=32; break;
+		case 'X': c=30; break;
+		case 'Y': c=31; break;
+		case 'Z': c=33; break;
 	}
 	sum=(c%10)*9+(c/10);
 	for(int i = 0; i<8; i++) 
