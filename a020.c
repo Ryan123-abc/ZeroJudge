@@ -7,7 +7,7 @@ int main(){
 	switch(a){
 		case 'A': c=10; break;
 		case 'B': c=11; break;
-		case 'c': c=12; break;
+		case 'C': c=12; break;
 		case 'D': c=13; break;
 		case 'E': c=14; break;
 		case 'F': c=15; break;
